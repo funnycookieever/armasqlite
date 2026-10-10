@@ -1,0 +1,7 @@
+# Ignore directories
+/docs/
+
+# Ignore files
+/addons/arma_sqlite_core.pbo
+/addons/arma_sqlite_core/$PBOPREFIX$
+/addons/arma_sqlite_core/$prefix$
