@@ -32,7 +32,6 @@ class CfgFunctions {
             class rows {};
             class query {};
             class exec {};
-            class smokeTest {};
         };
     };
 };
