@@ -43,6 +43,13 @@ try {
     };
 
     if (A3SQL_autoOpen) then {
+        if (A3SQL_databasePath isEqualTo "" || {
+            (toLower A3SQL_databasePath) in ["@armasqlite\data\arma.sqlite", "@armasqlite/data/arma.sqlite"]
+        }) then {
+            private _path = ["default_path", [], A3SQL_waitSeconds] call A3SQL_fnc_async;
+            A3SQL_databasePath = _path select 2;
+        };
+        diag_log format ["[A3SQL] Opening database: %1", A3SQL_databasePath];
         private _r = ["open", [A3SQL_databaseHandle, A3SQL_databasePath, A3SQL_databaseMode,
             A3SQL_busyMs toFixed 0, A3SQL_executionMs toFixed 0], A3SQL_waitSeconds] call A3SQL_fnc_async;
         uiNamespace setVariable ["A3SQL_managedHandle", A3SQL_databaseHandle];

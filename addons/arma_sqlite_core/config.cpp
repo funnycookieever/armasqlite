@@ -6,8 +6,8 @@ class CfgPatches {
         requiredAddons[] = {"A3_Functions_F"};
         units[] = {};
         weapons[] = {};
-        version = "1.0.0";
-        versionAr[] = {1, 0, 0};
+        version = "1.0.1";
+        versionAr[] = {1, 0, 1};
     };
 };
 
