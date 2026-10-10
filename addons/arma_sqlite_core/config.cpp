@@ -1,6 +1,6 @@
 class CfgPatches {
     class arma_sqlite_core {
-        name = "Arma SQLite Core";
+        name = "Arma 3 SQLite Core";
         author = "FunnyCookieEver";
         requiredVersion = 2.10;
         requiredAddons[] = {"A3_Functions_F"};

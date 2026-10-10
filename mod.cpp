@@ -1,4 +1,4 @@
-name = "Arma SQLite";
+name = "Arma 3 SQLite";
 author = "FunnyCookieEver";
 picture = "textures\A3SQL.paa";
 logoSmall = "textures\A3SQL.paa";
