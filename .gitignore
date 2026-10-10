@@ -3,5 +3,7 @@
 
 # Ignore files
 /addons/arma_sqlite_core.pbo
+/addons/arma_sqlite_core.pbo.a3sql.bisign
 /addons/arma_sqlite_core/$PBOPREFIX$
 /addons/arma_sqlite_core/$prefix$
+/keys/a3sql.bikey
